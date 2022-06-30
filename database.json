@@ -1,0 +1,19 @@
+{
+  "defaultEnv": "dev",
+  "dev": {
+    "driver": "pg",
+    "host": "your-db-host",
+    "port": "your-dbv-port",
+    "database": "your-db-name",
+    "user": "your-db-user",
+    "password": "your-db-password"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "your-db-host",
+    "port": "your-dbv-port",
+    "database": "your-db-test-name",
+    "user": "your-db-user",
+    "password": "your-db-password"
+  }
+}
